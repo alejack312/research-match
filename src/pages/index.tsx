@@ -161,8 +161,8 @@ const Favorites = (props: FavoritesProps) => {
     const jsxlist = props.favorites.map((researcher, index) => {
       const item = researchers[index];
       return (
-        <div className="flex flex-col justify-center">
-          <p key={index}>
+        <div className="flex flex-col justify-center" key={index}>
+          <p >
             {item.name} - {item.researchArea}
           </p>
           <button
