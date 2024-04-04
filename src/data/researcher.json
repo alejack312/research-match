@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Strange",
+        "researchArea": "Magic",
+        "description": "Dr. Strange is a world-renowned neurosurgeon and expert in the mystic arts. He is a member of the American College of Surgeons and has performed numerous ground-breaking surgeries. Dr. Strange is also a master of the mystic arts and has saved the world from countless supernatural threats.",
+        "email": "stephen_strange@baptisthealth.net",
+        "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+        "phone": "305-555-5555",
+        "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Bruce Banner",
+      "researchArea": "Gamma Radiation",
+      "description": "Dr. Banner is a world-renowned physicist and expert in gamma radiation. He is a member of the National Academy of Sciences and has published over 100 papers in peer-reviewed journals. Dr. Banner is also a recipient of the Nobel Prize in Physics.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Tony Stark",
+      "researchArea": "Mechanical Engineering",
+      "description": "Dr. Stark is a world-renowned engineer and inventor. He is the CEO of Stark Industries and has developed numerous groundbreaking technologies. Dr. Stark is also a member of the National Academy of Engineering and has received the Presidential Medal of Freedom.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Peter Parker",
+      "researchArea": "Physics",
+      "description": "Dr. Parker is a world-renowned physicist and expert in quantum mechanics. He is a member of the American Physical Society and has published over 50 papers in peer-reviewed journals. Dr. Parker is also a recipient of the Breakthrough Prize in Physics.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Steve Rogers",
+      "researchArea": "Super Soldier Serum",
+      "description": "Dr. Rogers is a world-renowned biochemist and expert in genetic engineering. He is a member of the American Chemical Society and has published over 100 papers in peer-reviewed journals. Dr. Rogers is also a recipient of the Lasker Award for Medical Research.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    }, 
+    {
+      "id": 6,
+      "name": "Dr. Natasha Romanoff",
+      "researchArea": "Espionage",
+      "description": "Dr. Romanoff is a world-renowned intelligence analyst and expert in espionage. She is a member of the International Association for Intelligence Education and has published numerous articles on intelligence analysis. Dr. Romanoff is also a recipient of the Intelligence Medal of Merit.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Clint Barton",
+      "researchArea": "Archery",
+      "description": "Dr. Barton is a world-renowned archer and expert in marksmanship. He is a member of the International Archery Federation and has won numerous competitions. Dr. Barton is also a recipient of the Olympic Gold Medal in Archery.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Wanda Maximoff",
+      "researchArea": "Chaos Magic",
+      "description": "Dr. Maximoff is a world-renowned sorceress and expert in chaos magic. She is a member of the International Society of Magicians and has performed numerous feats of magic. Dr. Maximoff is also a recipient of the Merlin Award for Magic.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Vision",
+      "researchArea": "Synthezoid Physiology",
+      "description": "Dr. Vision is a world-renowned roboticist and expert in synthezoid physiology. He is a member of the International Society of Robotics and has developed numerous advanced robots. Dr. Vision is also a recipient of the Turing Award for Robotics.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Sam Wilson",
+      "researchArea": "Avian Physiology",
+      "description": "Dr. Wilson is a world-renowned ornithologist and expert in avian physiology. He is a member of the American Ornithological Society and has published numerous papers on bird behavior. Dr. Wilson is also a recipient of the Audubon Medal for Ornithology.",
+      "email": "",
+      "photo": "https://i.pinimg.com/originals/7b/7b/7b/",
+      "phone": "305-555-5555",
+      "address": "123 Main St, Miami, FL 33133"
+    }
+]

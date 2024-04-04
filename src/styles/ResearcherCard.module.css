@@ -1,49 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: #f1f1f1;
-  --background-start-rgb: 241, 241, 241;
-  --background-end-rgb: 241, 241, 241;
-}
-/* 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+Add styling for your page here .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2f2f2;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-h1 {
+/* h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-kerning: auto;
-  color: #1a1919;
+  color: rgb(71, 171, 174);
   padding-right: 20px;
 }
 
 h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-kerning: auto;
-  color: #1a1919;
-}
+  color: rgb(71, 171, 174);
+} */
 
 .content {
   display: flex;
@@ -62,14 +35,6 @@ h2 {
   padding: 10px;
 }
 
-.menuItems {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-
 .cart {
   display: flex;
   flex-direction: column;
@@ -84,6 +49,20 @@ h2 {
   background-color: #f2f2f2;
 }
 
+.ResearcherCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80%;
+  height: 350px;
+  background-color: #2ea84a;
+}
+
 .ResearcherCard img {
   width: 100px;
   height: 100px;
@@ -91,17 +70,6 @@ h2 {
 }
 
 .ResearcherCard button {
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 40px;
-  background-color: rgb(227, 178, 54);
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-button {
   -webkit-text-size-adjust: 100%;
   --gray-light: #ddd;
   --abbey: #56595a;
@@ -116,16 +84,16 @@ button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #2ea84a;
   border: 2px solid #2ea84a;
-  padding: 2px;
   border-radius: 35px;
-  color: #fff;
   font-weight: 700;
   text-decoration: none;
   white-space: normal;
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
+  padding: 0.8em 1.75em 0.9em;
   margin: 0;
+  background-color: #fff;
+  color: #018920;
 }

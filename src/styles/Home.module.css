@@ -1,0 +1,23 @@
+.restaurantBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 98%;
+  margin: 0 auto;
+  background-color: #f0f8ff; /* Light blue background */
+}
+
+.favorites {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 113.5vw;
+  background-color: #f2f2f2;
+}
+

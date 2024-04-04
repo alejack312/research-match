@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "researchArea": "Artificial Intelligence",
+    "description": "Leading research in AI applications for healthcare. Expert in machine learning algorithms.",
+    "email": "johndoe@example.com",
+    "imageUrl": "/AdobeStock_57609672.jpeg",
+    "phone": "123-456-7890",
+    "address": "123 Research Street, City, Country"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "researchArea": "Biomedical Engineering",
+    "description": "Specializes in medical device innovation. Focused on developing smart prosthetics.",
+    "email": "janesmith@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "456-789-0123",
+    "address": "456 Innovation Avenue, City, Country"
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "researchArea": "Environmental Science",
+    "description": "Researching climate change impacts.",
+    "email": "alicejohnson@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "789-012-3456",
+    "address": "789 Sustainability Road, City, Country"
+  },
+  {
+    "id": 4,
+    "name": "Michael Brown",
+    "researchArea": "Artificial Intelligence",
+    "description": "Expert in machine learning algorithms.",
+    "email": "michaelbrown@example.com",
+    "imageUrl": "/AdobeStock_57609672.jpeg",
+    "phone": "234-567-8901",
+    "address": "234 Innovation Road, City, Country"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Lee",
+    "researchArea": "Biomedical Engineering",
+    "description": "Developing novel medical imaging techniques.",
+    "email": "sarahlee@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "567-890-1234",
+    "address": "567 Research Street, City, Country"
+  },
+  {
+    "id": 6,
+    "name": "David Wang",
+    "researchArea": "Environmental Science",
+    "description": "Studying biodiversity conservation strategies.",
+    "email": "davidwang@example.com",
+    "imageUrl": "/AdobeStock_57609672.jpeg",
+    "phone": "890-123-4567",
+    "address": "890 Sustainability Avenue, City, Country"
+  },
+  {
+    "id": 7,
+    "name": "Emily Taylor",
+    "researchArea": "Artificial Intelligence",
+    "description": "Focused on natural language processing research.",
+    "email": "emilytaylor@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "345-678-9012",
+    "address": "345 Innovation Street, City, Country"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Kim",
+    "researchArea": "Biomedical Engineering",
+    "description": "Working on smart prosthetics development.",
+    "email": "danielkim@example.com",
+    "imageUrl": "/AdobeStock_57609672.jpeg",
+    "phone": "678-901-2345",
+    "address": "678 Research Road, City, Country"
+  },
+  {
+    "id": 9,
+    "name": "Olivia Garcia",
+    "researchArea": "Environmental Science",
+    "description": "Researching sustainable agriculture practices.",
+    "email": "oliviagarcia@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "901-234-5678",
+    "address": "901 Sustainability Street, City, Country"
+  },
+  {
+    "id": 10,
+    "name": "Matthew White",
+    "researchArea": "Artificial Intelligence",
+    "description": "Specializes in computer vision research.",
+    "email": "matthewwhite@example.com",
+    "imageUrl": "/AdobeStock_57609672.jpeg",
+    "phone": "456-789-0123",
+    "address": "456 Innovation Avenue, City, Country"
+  },
+  {
+    "id": 11,
+    "name": "Sophia Martinez",
+    "researchArea": "Biomedical Engineering",
+    "description": "Developing AI-driven diagnostic tools.",
+    "email": "sophiamartinez@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "789-012-3456",
+    "address": "789 Sustainability Road, City, Country"
+  },
+  {
+    "id": 12,
+    "name": "William Clark",
+    "researchArea": "Environmental Science",
+    "description": "Investigating urban ecology and green spaces.",
+    "email": "williamclark@example.com",
+    "imageUrl": "/AdobeStock_57609672.jpeg",
+    "phone": "012-345-6789",
+    "address": "012 Research Avenue, City, Country"
+  },
+  {
+    "id": 13,
+    "name": "Laura Adams",
+    "researchArea": "Computer Science",
+    "description": "Expert in cybersecurity and network protocols.",
+    "email": "lauraadams@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "345-678-9012",
+    "address": "345 Cybersecurity Street, City, Country"
+  },
+  {
+    "id": 14,
+    "name": "Kevin Wilson",
+    "researchArea": "Computer Science",
+    "description": "Researching artificial neural networks.",
+    "email": "kevinwilson@example.com",
+    "imageUrl": "/AdobeStock_57609672.jpeg",
+    "phone": "678-901-2345",
+    "address": "678 AI Road, City, Country"
+  },
+  {
+    "id": 15,
+    "name": "Emma Garcia",
+    "researchArea": "Computer Science",
+    "description": "Working on quantum computing algorithms.",
+    "email": "emmagarcia@example.com",
+    "imageUrl": "/AdobeStock_395689086.jpeg",
+    "phone": "901-234-5678",
+    "address": "901 Quantum Street, City, Country"
+  }
+]
