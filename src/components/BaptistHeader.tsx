@@ -10,7 +10,7 @@ const BaptistHeader = () => {
           <div className="pr-[25px]">
             <span className={styles.utilityNavItem}>
               <span className="">Need Help? Call</span>{" "}
-              <a
+              <Link
                 className={styles.utilityNavLink}
                 href="tel:1-833-692-2784"
                 aria-label="call 1-833-692-2784"
@@ -18,60 +18,60 @@ const BaptistHeader = () => {
                 data-uw-rm-vglnk=""
               >
                 1-833-692-2784
-              </a>
+              </Link>
             </span>
             <span className={styles.utilityNavItem}>
               {" "}
-              <a
+              <Link
                 className=""
                 href="https://baptisthealth.net/es"
                 data-uw-rm-brl="PR"
                 data-uw-original-href="https://baptisthealth.net/es"
               >
                 Español
-              </a>
+              </Link>
             </span>
             <span className={styles.utilityNavItem}>
               {" "}
-              <a
+              <Link
                 className={styles.utilityNavLink}
                 href="https://careers.baptisthealth.net/us/en"
                 data-uw-rm-brl="PR"
                 data-uw-original-href="https://careers.baptisthealth.net/us/en"
               >
                 Careers
-              </a>
+              </Link>
             </span>
             <span className={styles.utilityNavItem}>
               {" "}
-              <a
+              <Link
                 className={styles.utilityNavLink}
                 href="/en/baptist-health-foundation"
                 data-uw-rm-brl="PR"
                 data-uw-original-href="https://baptisthealth.net/en/baptist-health-foundation"
               >
                 Giving
-              </a>
+              </Link>
             </span>
           </div>
           <div>
             <span className={styles.utilityNavItem}>
               {" "}
-              <a
+              <Link
                 className={styles.utilityNavLink}
                 href="/patient-resources/my-baptist-health-account"
                 data-uw-rm-brl="PR"
                 data-uw-original-href="https://baptisthealth.net/patient-resources/my-baptist-health-account"
               >
                 Sign in to My Account
-              </a>
+              </Link>
             </span>
           </div>
         </div>
 
         <div className="flex flex-row align-middle w-[100%] bg-[#ffffff]">
           <div className={styles.headerBarBrand}>
-            <a
+            <Link
               className={styles.headerBarBrandLink}
               href="/"
               title="Baptist Health South Florida"
@@ -125,7 +125,7 @@ const BaptistHeader = () => {
                 </g>
               </svg>
               <span className="invisible">Baptist Health South Florida</span>
-            </a>
+            </Link>
           </div>
 
           <div className="flex flex-row self-center w-[25%] px-8">
