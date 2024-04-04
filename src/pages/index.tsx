@@ -30,6 +30,7 @@ const Feed = (props: FavoritesProps) => {
   const [data, setData] = useState(researchers);
   const [sortOrder, setSortOrder] = useState<"asc" | "desc" | null>(null);
   const [searchKeyword, setSearchKeyword] = useState<string>("");
+  const [selectedArea, setSelectedArea] = useState<string | null>(null);
 
   const loadData = () => {
     setData(researchers);
@@ -69,6 +70,16 @@ const Feed = (props: FavoritesProps) => {
     return sortedResearchers;
   };
 
+  const filterByArea = (researchers: Researcher[]) => {
+    if (selectedArea === null) {
+      return researchers;
+    }
+
+    return researchers.filter(
+      (researcher) => researcher.researchArea === selectedArea
+    );
+  };
+
   const resetFiltersAndSort = () => {
     setSortOrder(null);
     setSearchKeyword("");
@@ -86,7 +97,8 @@ const Feed = (props: FavoritesProps) => {
 
   const buildElements = () => {
     const sortedResearchers = sortResearchers(researchers);
-    const searchedResearchers = searchResearchers(sortedResearchers);
+    const filteredResearchers = filterByArea(sortedResearchers);
+    const searchedResearchers = searchResearchers(filteredResearchers);
 
     const list = searchedResearchers.map(
       (
@@ -110,6 +122,29 @@ const Feed = (props: FavoritesProps) => {
 
     <div className="container">
       <div className="flex flex-row items-center self-center justify-center">
+        <div className="mx-4">
+          <label>
+            Research Area:
+            <select
+              className="border-2 border-[#1a1919]"
+              value={selectedArea ?? ""}
+              onChange={(e) => setSelectedArea(e.target.value)}
+            >
+              <option value="">All</option>
+              {/* Replace 'Area1', 'Area2', etc. with your actual research areas */}
+              <option value="Artificial Intelligence">
+                Artificial Intelligence
+              </option>
+              <option value="Biomedical Engineering">
+                Biomedical Engineering
+              </option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Environmental Science">
+                Environmental Science
+              </option>
+            </select>
+          </label>
+        </div>
         <div className="mx-4">
           <label>
             Sort order:
@@ -162,7 +197,7 @@ const Favorites = (props: FavoritesProps) => {
       const item = researchers[index];
       return (
         <div className="flex flex-col justify-center" key={index}>
-          <p >
+          <p>
             {item.name} - {item.researchArea}
           </p>
           <button

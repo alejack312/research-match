@@ -39,3 +39,27 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # research-match
+Include a few sentences about the intention of your app and how you are 
+incorporating filter, sort, and aggregation using your theme.
+
+The intention of this app is to help users find researchers that match their 
+interests. The app will have a list of research papers that users can filter and sort based on their interests. The app will also have an aggregator that will show the total number of research papers that match the user's interests.
+
+App functionality
+At least 2 filtering categories that work as expected
+At least 1 sorting category that works as expected
+
+The app includes a way to sort researcher cards by alphabetical order of the
+research area. They can be filtered in ascending and descending order.
+
+A button at the top of the page allows the user to reset the filters and sorts.
+
+Users can add researcher cards to their list of favorites. The aggregator at the
+right side of the page will update to show the researchers in the list of 
+favorites. Once added to the list of favorites, each researcher has a corresponding
+button that allows the user to remove the researcher from the list of favorites.
+
+
+Includes at least 12 Item cards with all required parts (i.e: image, name, button, etc.)
+Filter & sort are compatible and work in combination
+
