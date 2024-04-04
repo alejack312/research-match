@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 
@@ -6,7 +7,7 @@ const BaptistFooter = () => {
     <footer className="site-footer ">
       <div className="container--outer">
         <div className="site-footer__top">
-          <a
+          <Link
             className="site-footer__logo"
             href="/"
             title="Baptist Health South Florida"
@@ -29,35 +30,35 @@ const BaptistFooter = () => {
             <span className="element-invisible">
               Baptist Health South Florida
             </span>
-          </a>
+          </Link>
           <div className="site-footer__footer-links">
-            <a
+            <Link
               className="button button--outline button--small"
               href="/healthcare-professionals/for-physicians"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-physicians"
             >
               For Physicians
-            </a>
-            <a
+            </Link>
+            <Link
               className="button button--outline button--small"
               href="/healthcare-professionals/for-nurses"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-nurses"
             >
               For Nurses
-            </a>
-            <a
+            </Link>
+            <Link
               className="button button--outline button--small"
               href="/healthcare-professionals/for-employees"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-employees"
             >
               For Employees
-            </a>
+            </Link>
           </div>
           <div className="site-footer__sm-icons">
-            <a
+            <Link
               className="site-footer__sm-icon sm--facebook"
               target="_blank"
               rel="noopener"
@@ -81,8 +82,8 @@ const BaptistFooter = () => {
                   fill="#fff"
                 ></path>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               className="site-footer__sm-icon sm--twitter"
               target="_blank"
               rel="noopener"
@@ -151,8 +152,8 @@ const BaptistFooter = () => {
                   ></path>
                 </g>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               className="site-footer__sm-icon sm--youtube"
               target="_blank"
               rel="noopener"
@@ -174,8 +175,8 @@ const BaptistFooter = () => {
                   fill="#fff"
                 ></path>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               className="site-footer__sm-icon sm--instagram"
               target="_blank"
               rel="noopener"
@@ -210,8 +211,8 @@ const BaptistFooter = () => {
                   </clipPath>
                 </defs>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               className="site-footer__sm-icon sm--linkedin"
               target="_blank"
               rel="noopener"
@@ -233,8 +234,8 @@ const BaptistFooter = () => {
                   fill="#fff"
                 ></path>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               className="site-footer__sm-icon sm--tiktok"
               target="_blank"
               rel="noopener"
@@ -260,7 +261,7 @@ const BaptistFooter = () => {
                   fill-rule="evenodd"
                 ></path>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="site-footer__menus">
@@ -268,450 +269,450 @@ const BaptistFooter = () => {
             <div className="l-footer-menu-grid">
               <div className="footer-menu__item l-4up--1">
                 <h4 className="footer-menu__top-level">
-                  <a
+                  <Link
                     className="footer-menu__top-level-link"
                     href="/patient-resources"
                     data-uw-rm-brl="PR"
                     data-uw-original-href="https://baptisthealth.net/patient-resources"
                   >
                     Patient Resources
-                  </a>
+                  </Link>
                 </h4>
                 <ul className="footer-menu__child-container">
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://baptisthealth.net/patient-resources/my-baptist-health-account"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/my-baptist-health-account"
                     >
                       My Baptist Health Account
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://baptisthealth.net/pay-a-bill"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/pay-a-bill"
                     >
                       Pay a Bill
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/insurance-accepted"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/insurance-accepted"
                     >
                       Insurance Accepted
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/pre-registration"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/pre-registration"
                     >
                       Pre-Registration
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/billing-and-financial-assistance"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/billing-and-financial-assistance"
                     >
                       Billing &amp; Financial Assistance
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/billing-and-financial-assistance/patient-pricing"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/billing-and-financial-assistance/patient-pricing"
                     >
                       Price Transparency
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/international-services/international-patients"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/international-services/international-patients"
                     >
                       International Patients
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://events.baptisthealth.net/"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://events.baptisthealth.net/"
                     >
                       classNamees, Events and Support Groups
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/medical-records"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/medical-records"
                     >
                       Medical Records
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/advance-directives"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/advance-directives"
                     >
                       Advance Directive
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/patient-and-family-advisory-council"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/patient-and-family-advisory-council"
                     >
                       Patient &amp; Family Advisory Council
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/hotel"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/hotel"
                     >
                       Hotel
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/patient-resources/visitor-guidelines"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/patient-resources/visitor-guidelines"
                     >
                       Visitor Guidelines
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="footer-menu__item l-4up--2">
                 <h4 className="footer-menu__top-level">
-                  <a
+                  <Link
                     className="footer-menu__top-level-link"
                     href="/about-baptist-health"
                     data-uw-rm-brl="PR"
                     data-uw-original-href="https://baptisthealth.net/about-baptist-health"
                   >
                     About Baptist Health
-                  </a>
+                  </Link>
                 </h4>
                 <ul className="footer-menu__child-container">
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/locations"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/locations"
                     >
                       Locations
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://baptisthealth.net/baptist-health-news/"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/baptist-health-news/"
                     >
                       News &amp; Stories
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://newsroom.baptisthealth.net/"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://newsroom.baptisthealth.net/"
                     >
                       Newsroom
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://careers.baptisthealth.net/us/en"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://careers.baptisthealth.net/us/en"
                     >
                       Careers
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/baptist-health-foundation"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/baptist-health-foundation"
                     >
                       Giving
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/about-baptist-health/fulfilling-our-mission"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/about-baptist-health/fulfilling-our-mission"
                     >
                       Fulfilling Our Mission
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/about-baptist-health/diversity-and-inclusion"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/about-baptist-health/diversity-and-inclusion"
                     >
                       Diversity &amp; Inclusion
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/about-baptist-health/sponsorship-opportunities"
                     >
                       Sponsorship Opportunities
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/about-baptist-health/purchasing-philosophy"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/about-baptist-health/purchasing-philosophy"
                     >
                       Purchasing Philosophy
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://innovation.baptisthealth.net"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://innovation.baptisthealth.net/"
                     >
                       Baptist Health Innovations
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://baptisthealth.net/about-baptist-health/become-a-volunteer"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/about-baptist-health/become-a-volunteer"
                     >
                       Volunteer
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://baptisthealth.net/about-baptist-health/research?&amp;_ga=2.215938196.243279919.1698069963-1336127421.1694703411"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/about-baptist-health/research?&amp;_ga=2.215938196.243279919.1698069963-1336127421.1694703411"
                     >
                       Research
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="footer-menu__item l-4up--3">
                 <h4 className="footer-menu__top-level">
-                  <a
+                  <Link
                     className="footer-menu__top-level-link"
                     href="/healthcare-professionals"
                     data-uw-rm-brl="PR"
                     data-uw-original-href="https://baptisthealth.net/healthcare-professionals"
                   >
                     For Professionals
-                  </a>
+                  </Link>
                 </h4>
                 <ul className="footer-menu__child-container">
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/healthcare-professionals/for-physicians"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-physicians"
                     >
                       For Physicians
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/healthcare-professionals/for-nurses"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-nurses"
                     >
                       For Nurses
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/healthcare-professionals/for-employees"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-employees"
                     >
                       For Employees
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://gb.baptisthealth.net"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://gb.baptisthealth.net/"
                     >
                       For Board Members
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/healthcare-professionals/for-payors"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-payors"
                     >
                       For Payors
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyId=3546"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyId=3546"
                     >
                       For Tenants
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/healthcare-professionals/for-vendors"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-vendors"
                     >
                       For Vendors
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/healthcare-professionals/for-physicians/baptist-health-medical-group"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-physicians/baptist-health-medical-group"
                     >
                       Baptist Health Medical Group
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="/healthcare-professionals/for-physicians/baptist-health-quality-network"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/healthcare-professionals/for-physicians/baptist-health-quality-network"
                     >
                       Baptist Health Quality Network
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="footer-menu__item l-4up--4">
                 <h4 className="footer-menu__top-level">
-                  <a
+                  <Link
                     className="footer-menu__top-level-link"
                     href="https://academics.baptisthealth.net/"
                     data-uw-rm-brl="PR"
                     data-uw-original-href="https://academics.baptisthealth.net/"
                   >
                     Academics &amp; Learning
-                  </a>
+                  </Link>
                 </h4>
                 <ul className="footer-menu__child-container">
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://academics.baptisthealth.net/residencies-and-fellowships"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://academics.baptisthealth.net/residencies-and-fellowships"
                     >
                       Residencies &amp; Fellowships
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://academics.baptisthealth.net/certificate-programs"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://academics.baptisthealth.net/certificate-programs"
                     >
                       Certificate Programs
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://academics.baptisthealth.net/student-and-visitor-programs"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://academics.baptisthealth.net/student-and-visitor-programs"
                     >
                       Student &amp; Visitor Programs
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-menu__child-item">
-                    <a
+                    <Link
                       className="footer-menu__child-link "
                       href="https://baptisthealth.net/continuing-medical-education"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/continuing-medical-education"
                     >
                       Continuing Medical Education
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div className="footer-menu__app">
                   <h4 className="footer-menu__top-level">
-                    <a
+                    <Link
                       className="footer-menu__top-level-link"
                       href="https://baptisthealth.net/lp/pineapp"
                       data-uw-rm-brl="PR"
                       data-uw-original-href="https://baptisthealth.net/lp/pineapp"
                     >
                       Download the PineApp Today
-                    </a>
+                    </Link>
                   </h4>
                   <div className="footer-menu__app-badges">
-                    <a
+                    <Link
                       className="footer-menu__app-badge"
                       href="https://apps.apple.com/us/app/pineapp/id393333579"
                       data-uw-rm-brl="PR"
@@ -839,8 +840,8 @@ const BaptistFooter = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="footer-menu__app-badge"
                       href="https://play.google.com/store/apps/details?id=com.osellus.android.pineapp&amp;hl=en_US&amp;gl=US"
                       data-uw-rm-brl="PR"
@@ -1017,7 +1018,7 @@ const BaptistFooter = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1029,45 +1030,45 @@ const BaptistFooter = () => {
             Copyright © 2024 Baptist Health South Florida. All Rights Reserved.
           </div>
           <div className="site-footer__policy-links">
-            <a
+            <Link
               href="https://baptisthealth.net/hipaa-notice-of-privacy-practices"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/hipaa-notice-of-privacy-practices"
             >
               HIPAA Notice of Privacy Practices
-            </a>{" "}
+            </Link>{" "}
             |{" "}
-            <a
+            <Link
               href="/privacy-policy"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/privacy-policy"
             >
               Website Privacy Policy
-            </a>{" "}
+            </Link>{" "}
             |{" "}
-            <a
+            <Link
               href="/terms-of-use"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/terms-of-use"
             >
               Terms of Use
-            </a>{" "}
+            </Link>{" "}
             |{" "}
-            <a
+            <Link
               href="/notice-of-non-discrimination"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/notice-of-non-discrimination"
             >
               Notice of Non-Discrimination
-            </a>{" "}
+            </Link>{" "}
             |{" "}
-            <a
+            <Link
               href="/sitemap"
               data-uw-rm-brl="PR"
               data-uw-original-href="https://baptisthealth.net/sitemap"
             >
               Sitemap
-            </a>
+            </Link>
           </div>
         </div>
       </div>
