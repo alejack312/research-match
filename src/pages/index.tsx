@@ -83,6 +83,7 @@ const Feed = (props: FavoritesProps) => {
   const resetFiltersAndSort = () => {
     setSortOrder(null);
     setSearchKeyword("");
+    setSelectedArea(null);
   };
 
   const searchResearchers = (researchers: Researcher[]) => {

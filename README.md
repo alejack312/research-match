@@ -45,9 +45,17 @@ incorporating filter, sort, and aggregation using your theme.
 The intention of this app is to help users find researchers that match their 
 interests. The app will have a list of research papers that users can filter and sort based on their interests. The app will also have an aggregator that will show the total number of research papers that match the user's interests.
 
-App functionality
-At least 2 filtering categories that work as expected
-At least 1 sorting category that works as expected
+### App functionality
+
+The app includes a way to filter researcher cards by research area. The user can
+select a research area from a dropdown menu and the researcher cards will update
+to show only the researchers that match the selected research area.
+
+The app includes a way to filter researcher cards by keywords in the researcher's
+description. The user can enter a keyword in the search bar and the researcher
+cards will update to show only the researchers that have the keyword in their
+description.
+
 
 The app includes a way to sort researcher cards by alphabetical order of the
 research area. They can be filtered in ascending and descending order.
