@@ -38,12 +38,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# research-match
-Include a few sentences about the intention of your app and how you are 
-incorporating filter, sort, and aggregation using your theme.
+### research-match
+
 
 The intention of this app is to help users find researchers that match their 
-interests. The app will have a list of research papers that users can filter and sort based on their interests. The app will also have an aggregator that will show the total number of research papers that match the user's interests.
+interests. The app will have a list of researchers that users can filter and 
+sort based on their research areas. The app will also have an aggregator that 
+will show favorited researchers that match the user's interests.
 
 ### App functionality
 
@@ -56,7 +57,6 @@ description. The user can enter a keyword in the search bar and the researcher
 cards will update to show only the researchers that have the keyword in their
 description.
 
-
 The app includes a way to sort researcher cards by alphabetical order of the
 research area. They can be filtered in ascending and descending order.
 
@@ -67,7 +67,8 @@ right side of the page will update to show the researchers in the list of
 favorites. Once added to the list of favorites, each researcher has a corresponding
 button that allows the user to remove the researcher from the list of favorites.
 
-
-Includes at least 12 Item cards with all required parts (i.e: image, name, button, etc.)
-Filter & sort are compatible and work in combination
+Filter & sort are compatible and work in combination with each other. The user
+can filter by research area and then sort the filtered researchers by alphabetical
+order of the research area. The user can also filter by keyword and search for
+descriptions that match the keyword.
 
