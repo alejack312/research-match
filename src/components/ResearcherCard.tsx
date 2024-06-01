@@ -26,7 +26,7 @@ const ResearcherCard: React.FC<ResearcherCardProps> = (props) => {
   return (
     <div className={styles.ResearcherCard}>
       <div className="w-[40%] items-center justify-center">
-        <img src={props.researcher.imageUrl} alt={props.researcher.name} />
+        <img className={styles.researcherImage} src={props.researcher.imageUrl} alt={props.researcher.name} />
       </div>
       <div className="border-l border-2 border-[#1a1919] border-opacity-50 h-[95%] self-center mr-4"></div>
 

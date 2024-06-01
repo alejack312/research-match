@@ -97,3 +97,11 @@ h2 {
   background-color: #fff;
   color: #018920;
 }
+
+.researcherImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}

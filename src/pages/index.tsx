@@ -27,6 +27,8 @@ interface FavoritesProps {
 }
 
 const Feed = (props: FavoritesProps) => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 6;
   const [data, setData] = useState(researchers);
   const [sortOrder, setSortOrder] = useState<"asc" | "desc" | null>(null);
   const [searchKeyword, setSearchKeyword] = useState<string>("");
@@ -98,21 +100,26 @@ const Feed = (props: FavoritesProps) => {
 
   const buildElements = () => {
     const sortedResearchers = sortResearchers(researchers);
-    const filteredResearchers = filterByArea(sortedResearchers);
-    const searchedResearchers = searchResearchers(filteredResearchers);
+    const searchedResearchers = searchResearchers(sortedResearchers);
+    const filteredResearchers = filterByArea(searchedResearchers);
 
-    const list = searchedResearchers.map(
-      (
-        item,
-        index // TODO: map bakeryData to BakeryItem components
-      ) => (
-        <ResearcherCard
-          key={index}
-          researcher={item}
-          addToFavorites={addToFavorites}
-        />
-      )
+    // Calculate the index of the first and last item on the current page
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+
+    // Get the items for the current page
+    const currentItems = filteredResearchers.slice(
+      indexOfFirstItem,
+      indexOfLastItem
     );
+
+    const list = currentItems.map((item, index) => (
+      <ResearcherCard
+        key={index}
+        researcher={item}
+        addToFavorites={addToFavorites}
+      />
+    ));
 
     return list;
   };
@@ -181,6 +188,23 @@ const Feed = (props: FavoritesProps) => {
         </button>
       </div>
       <div className="menuItems">{buildElements()}</div>
+      <div className="flex justify-center">
+        <button
+          className="mx-4"
+          onClick={() => setCurrentPage(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
+          Previous
+        </button>
+        <button
+          onClick={() => setCurrentPage(currentPage + 1)}
+          disabled={
+            currentPage === Math.ceil(buildElements.length / itemsPerPage)
+          }
+        >
+          Next
+        </button>
+      </div>
     </div>
   );
 };
